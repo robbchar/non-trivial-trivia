@@ -1,16 +1,16 @@
 import Head from 'next/head';
-import Grid from '../components/Grid';
+import Answers from '../components/Answers';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Trivia Night!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Grid />
+        <Answers />
       </main>
 
       <footer></footer>
