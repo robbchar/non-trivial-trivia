@@ -1,9 +1,9 @@
 import styles from './Answer.module.css';
 
-export default function Home() {
+export default function Answer({ answer }) {
   return (
     <div className={styles.answer}>
-      <p>This is an answer that I have made up.</p>
+      <p>{answer}</p>
     </div>
   );
 }
