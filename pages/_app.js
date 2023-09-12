@@ -1,6 +1,9 @@
+'use client';
+
 import Head from 'next/head';
 import Script from 'next/script';
 import '../styles/global.css';
+import { TriviaProvider } from '../TriviaContext';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -10,7 +13,10 @@ export default function App({ Component, pageProps }) {
         <title>Trivia Night!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Component {...pageProps}></Component>
+
+      <TriviaProvider>
+        <Component {...pageProps}></Component>
+      </TriviaProvider>
     </>
   );
 }

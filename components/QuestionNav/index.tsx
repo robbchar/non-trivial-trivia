@@ -1,4 +1,4 @@
-import styles from './Nav.module.css';
+import styles from './QuestionNav.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCircleArrowLeft,
