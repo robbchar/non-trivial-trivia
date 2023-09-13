@@ -4,26 +4,19 @@ import styles from './Intro.module.css';
 import { TriviaContext } from '../TriviaContext';
 import { useContext, useState } from 'react';
 import logo from '../../images/logo.png';
-import bg from '../../images/background.png';
+import Category from '../Category';
 
 const getContent = (currentSlide, currentCategory, context, router) => {
   if (currentSlide === 0) {
     return (
       <>
-        <Image src={bg} alt="background" layout="fill" />
-        <Image
-          style={{ zIndex: '10', position: 'relative' }}
-          src={logo}
-          alt="logo"
-          width="487"
-          height="322"
-        />
+        <Image src={logo} alt="logo" width="487" height="322" />
       </>
     );
   } else if (currentSlide > context.triviaGame.categories.length) {
     router.push('/questions');
   } else {
-    return <span>{currentCategory.title}</span>;
+    return <Category category={currentCategory.title} />;
   }
 };
 
