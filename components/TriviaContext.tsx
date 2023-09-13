@@ -1,4 +1,5 @@
 import { createContext } from 'react';
+import triviaGame from '../trivia.json';
 
 export const TriviaContext = createContext(null);
 
@@ -6,10 +7,9 @@ export const TriviaProvider = ({ children }) => {
   return (
     <TriviaContext.Provider
       value={{
-        gameJson: {},
+        triviaGame,
         currentQuestion: 1,
         currentCategory: 1,
-        message: 'heya',
       }}
     >
       {children}

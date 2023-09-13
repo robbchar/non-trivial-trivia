@@ -3,7 +3,7 @@
 import Head from 'next/head';
 import Script from 'next/script';
 import '../styles/global.css';
-import { TriviaProvider } from '../TriviaContext';
+import { TriviaProvider } from '../components/TriviaContext';
 
 export default function App({ Component, pageProps }) {
   return (
