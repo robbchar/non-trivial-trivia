@@ -1,5 +1,5 @@
-import Intro from '../components/Intro';
+import GameLayout from '../components/GameLayout';
 
-export default function Home() {
-  return <div />;
+export default function Questions() {
+  return <GameLayout />;
 }

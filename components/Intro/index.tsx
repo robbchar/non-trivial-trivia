@@ -16,7 +16,7 @@ const getContent = (currentSlide, currentCategory, context, router) => {
   } else if (currentSlide > context.triviaGame.categories.length) {
     router.push('/questions');
   } else {
-    return <Category category={currentCategory.title} />;
+    return <Category title={currentCategory.title} />;
   }
 };
 
