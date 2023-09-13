@@ -6,46 +6,46 @@
         {
           "question": "Kroger, the nation's largest supermarket chain, purchased Fred Meyer in 1998. In October, Kroger announced it wanted to purchase its next largest competitor.  What is the name of this supermarket chain?",
           "answers": [
-            { "answer": "Albertsons", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Albertsons", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "In response to \"dangerous working conditions and a lack of professionalism\" this group of workers in Portland announced their intent to unionize.",
           "answers": [
-            { "answer": "Exotic Dancers", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Exotic Dancers", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "A 10-week antitrust trial is about to begin for which tech giant?",
           "answers": [
-            { "answer": "Google", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Google", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "Hostess was recently sold to what PBJ giant in a deal valued at $5.6 billion?",
           "answers": [
-            { "answer": "JM Smucker", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "JM Smucker", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "What country experienced a 6.8 magnitude earthquake on Friday that killed at least 2500 people?",
           "answers": [
-            { "answer": "Morocco", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Morocco", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         }
       ]
@@ -56,19 +56,19 @@
         {
           "question": "This device was used to display images on TV and computer screens up until the 2000s",
           "answers": [
-            { "answer": "Cathode-ray tube", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Cathode-ray tube", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "Cathode-ray tubes were phased out by new TV and screen display technologies such as...",
           "answers": [
-            { "answer": "LCD", "correct": true },
-            { "answer": "CRT" },
-            { "answer": "PDP", "correct": true },
-            { "answer": "LSD" }
+            { "text": "LCD", "correct": true },
+            { "text": "CRT" },
+            { "text": "PDP", "correct": true },
+            { "text": "LSD" }
           ],
           "multipleChoice": true
         }
@@ -80,46 +80,46 @@
         {
           "question": "In this 1989 film, Ray Stamtz slips on some slime and accidently breaks a pipe that falls onto a powerline causing a citywide blackout.",
           "answers": [
-            { "answer": "Ghostbusters II", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Ghostbusters II", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "In the 1989 comedy, National Lampoon's Christmas Vacation, Clark Griswold's enthusiasm for decorating his house with lights causes a power outage in what midwest city?",
           "answers": [
-            { "answer": "Chicago", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Chicago", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "In this 2001 film, a group of con artists uses an electromagnetic device to cut off power to the city of Las Vegas.",
           "answers": [
-            { "answer": "Oceans Eleven", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Oceans Eleven", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "The Trigger Effect",
           "answers": [
-            { "answer": "??", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "??", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         },
         {
           "question": "What country experienced a 6.8 magnitude earthquake on Friday that killed at least 2500 people?",
           "answers": [
-            { "answer": "Morocco", "correct": true },
-            { "answer": "??" },
-            { "answer": "??" },
-            { "answer": "??" }
+            { "text": "Morocco", "correct": true },
+            { "text": "??" },
+            { "text": "??" },
+            { "text": "??" }
           ]
         }
       ]
