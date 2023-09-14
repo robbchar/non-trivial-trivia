@@ -10,7 +10,11 @@ export default function GameLayout() {
     <div className={styles.container}>
       <div className={styles.layout}>
         {context.triviaGame.categories.map((category, index) => (
-          <CategoryColumn category={category} key={index} />
+          <CategoryColumn
+            category={category}
+            categoryIndex={index}
+            key={index}
+          />
         ))}
       </div>
     </div>

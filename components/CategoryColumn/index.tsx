@@ -1,24 +1,39 @@
 import styles from './CategoryColumn.module.css';
+import { useRouter } from 'next/navigation';
 
-const categoryClick = () => {
-  console.log('category clicked');
+const goToQuestion = (router, categoryIndex, questionIndex) => {
+  router.push({
+    pathname: '/question/[categoryIndex]/[questionIndex]',
+    query: { categoryIndex, questionIndex },
+  });
 };
 
-const questionClicked = () => {
-  console.log('question clicked');
+const categoryClick = (router, categoryIndex) => {
+  goToQuestion(router, categoryIndex, 0);
 };
 
-export default function CategoryColumn({ category }) {
+const questionClicked = (router, category, categoryIndex, questionIndex) => {
+  goToQuestion(router, categoryIndex, questionIndex);
+};
+
+export default function CategoryColumn({ category, categoryIndex }) {
+  const router = useRouter();
+
   return (
     <div className={styles.categoryColumn}>
-      <div className={styles.categoryContainer} onClick={() => categoryClick()}>
+      <div
+        className={styles.categoryContainer}
+        onClick={() => categoryClick(router, categoryIndex)}
+      >
         <h1 className={styles.category}>{category.title}</h1>
       </div>
-      {category.questions.map((question, index) => (
+      {category.questions.map((question, questionIndex) => (
         <div
           className={styles.question}
-          key={index}
-          onClick={() => questionClicked()}
+          key={questionIndex}
+          onClick={() =>
+            questionClicked(router, category, categoryIndex, questionIndex)
+          }
         >
           {question.question}
         </div>
