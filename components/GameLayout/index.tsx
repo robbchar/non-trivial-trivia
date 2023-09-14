@@ -5,7 +5,7 @@ import { TriviaContext } from '../TriviaContext';
 
 export default function GameLayout() {
   const context = useContext(TriviaContext);
-  console.log({ TriviaContext, context, useContext });
+
   return (
     <div className={styles.container}>
       <div className={styles.layout}>
