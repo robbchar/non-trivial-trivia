@@ -12,7 +12,7 @@ const categoryClick = (router, categoryIndex) => {
   goToQuestion(router, categoryIndex, 0);
 };
 
-const questionClicked = (router, category, categoryIndex, questionIndex) => {
+const questionClicked = (router, categoryIndex, questionIndex) => {
   goToQuestion(router, categoryIndex, questionIndex);
 };
 
@@ -31,9 +31,7 @@ export default function CategoryColumn({ category, categoryIndex }) {
         <div
           className={styles.question}
           key={questionIndex}
-          onClick={() =>
-            questionClicked(router, category, categoryIndex, questionIndex)
-          }
+          onClick={() => questionClicked(router, categoryIndex, questionIndex)}
         >
           {question.question}
         </div>

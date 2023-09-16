@@ -4,13 +4,17 @@ import Question from '../Question';
 import QuestionNav from '../QuestionNav';
 
 export default function TriviaQuestion({ triviaQuestion }) {
+  const triviaQuestionJSX = !triviaQuestion ? null : (
+    <div className={styles.TriviaQuestion}>
+      <Question question={triviaQuestion.question} />
+      <Answers answers={triviaQuestion.answers} />
+    </div>
+  );
+
   return (
     <>
       <QuestionNav />
-      <div className={styles.TriviaQuestion}>
-        <Question question={triviaQuestion.question} />
-        <Answers answers={triviaQuestion.answers} />
-      </div>{' '}
+      {triviaQuestionJSX}
     </>
   );
 }
