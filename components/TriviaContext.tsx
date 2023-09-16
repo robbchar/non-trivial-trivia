@@ -8,8 +8,6 @@ export const TriviaProvider = ({ children }) => {
     <TriviaContext.Provider
       value={{
         triviaGame,
-        currentQuestion: 1,
-        currentCategory: 1,
       }}
     >
       {children}

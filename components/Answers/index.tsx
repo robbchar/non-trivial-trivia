@@ -4,13 +4,9 @@ import styles from './Answers.module.css';
 export default function Answers({ answers }) {
   if (!answers) return null;
 
-  const AnswerComponents = answers.map((answer, index) => {
-    return <Answer answer={answer} key={index} />;
+  const answerCOmponents = answers.map((answer, index) => {
+    return <Answer text={answer.text} key={index} />;
   });
 
-  return (
-    <div className={styles.grid}>
-      <AnswerComponents />
-    </div>
-  );
+  return <div className={styles.grid}>{answerCOmponents}</div>;
 }
