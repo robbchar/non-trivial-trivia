@@ -23,7 +23,9 @@ export default function App({ Component, pageProps }) {
         style={{ zIndex: '-10', positions: 'static' }}
       />
       <TriviaProvider>
-        <Component {...pageProps}></Component>
+        <div className="container">
+          <Component {...pageProps}></Component>
+        </div>
       </TriviaProvider>
     </>
   );

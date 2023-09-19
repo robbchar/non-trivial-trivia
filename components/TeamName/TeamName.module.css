@@ -1,0 +1,28 @@
+.content {
+  width: 100%;
+  align-content: left;
+  justify-content: center;
+  display: flex;
+}
+
+.nameInput {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+.numberContainer {
+  align-self: flex-end;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 1.5rem;
+}

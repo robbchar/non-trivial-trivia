@@ -1,13 +1,14 @@
-import styles from './QuestionNav.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCircleArrowLeft,
   faCircleArrowRight,
   faTableCells,
+  faCubes,
 } from '@fortawesome/free-solid-svg-icons';
 import { useRouter } from 'next/router';
 import { TriviaContext } from '../TriviaContext';
 import { useContext } from 'react';
+import NavHeader from '../NavHeader';
 
 export default function Nav() {
   const context = useContext(TriviaContext);
@@ -16,6 +17,10 @@ export default function Nav() {
 
   const goQuestionHome = () => {
     router.push('/questions');
+  };
+
+  const goTeamHome = () => {
+    router.push('/teams');
   };
 
   const goForwardQuestion = () => {
@@ -84,16 +89,19 @@ export default function Nav() {
   };
 
   return (
-    <div className={styles.nav}>
-      <div className={styles.button} onClick={goBackwardQuestion}>
+    <NavHeader>
+      <div onClick={goBackwardQuestion}>
         <FontAwesomeIcon icon={faCircleArrowLeft} />
       </div>
-      <div className={styles.button} onClick={goQuestionHome}>
+      <div onClick={goQuestionHome}>
         <FontAwesomeIcon icon={faTableCells} />
       </div>
-      <div className={styles.button} onClick={goForwardQuestion}>
+      <div onClick={goTeamHome}>
+        <FontAwesomeIcon icon={faCubes} />
+      </div>
+      <div onClick={goForwardQuestion}>
         <FontAwesomeIcon icon={faCircleArrowRight} />
       </div>
-    </div>
+    </NavHeader>
   );
 }
