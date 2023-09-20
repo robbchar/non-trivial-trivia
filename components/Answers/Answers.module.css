@@ -5,6 +5,10 @@
   flex-wrap: wrap;
 }
 
+.grid:focus {
+  outline: none;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

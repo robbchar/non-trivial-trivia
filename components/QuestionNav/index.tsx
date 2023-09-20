@@ -10,17 +10,19 @@ import { TriviaContext } from '../TriviaContext';
 import { useContext } from 'react';
 import NavHeader from '../NavHeader';
 
-export default function Nav() {
+export default function Nav({ navigated }) {
   const context = useContext(TriviaContext);
   const router = useRouter();
   const { categoryIndex = 0, questionIndex = 0 } = router.query;
 
   const goQuestionHome = () => {
     router.push('/questions');
+    navigated();
   };
 
   const goTeamHome = () => {
     router.push('/teams');
+    navigated();
   };
 
   const goForwardQuestion = () => {
@@ -37,6 +39,7 @@ export default function Nav() {
           questionIndex: Number.parseInt(questionIndex) + 1,
         },
       });
+      navigated();
     } else {
       if (
         Number.parseInt(categoryIndex) ===
@@ -54,6 +57,7 @@ export default function Nav() {
             questionIndex: 0,
           },
         });
+        navigated();
       }
     }
   };
