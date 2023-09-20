@@ -27,6 +27,7 @@
 
 .categoryContainer {
   height: 20rem;
+  width: 39rem;
   display: flex;
   justify-content: center;
   align-items: center;

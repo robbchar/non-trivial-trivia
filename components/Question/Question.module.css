@@ -23,7 +23,8 @@
   user-select: none;
 }
 
-.question p {
+.question h1 {
   margin: 0;
   line-height: 1.5;
+  text-align: center;
 }
