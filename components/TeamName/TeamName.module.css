@@ -5,6 +5,10 @@
   display: flex;
 }
 
+.content > input {
+  font-size: 2rem;
+}
+
 .nameInput {
   align-self: flex-start;
   flex-grow: 1;
@@ -21,14 +25,20 @@
   justify-items: center;
 }
 
+.number > span {
+  font-size: 3rem;
+}
+
 .buttonContainer {
   display: flex;
   flex-direction: column;
   width: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .buttonContainer > div {
   cursor: pointer;
+  width: 1.5rem;
 }
 
 .teamName {
