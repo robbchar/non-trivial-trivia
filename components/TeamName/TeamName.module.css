@@ -26,3 +26,12 @@
   flex-direction: column;
   width: 1.5rem;
 }
+
+.buttonContainer > div {
+  cursor: pointer;
+}
+
+.teamName {
+  align-self: flex-start;
+  flex-grow: 1;
+}
