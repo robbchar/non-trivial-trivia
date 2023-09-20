@@ -1,125 +1,159 @@
 {
   "categories": [
     {
-      "title": "I am not nosey, I am newsey",
+      "title": "Oktoberfest",
       "questions": [
         {
-          "question": "Kroger, the nation's largest supermarket chain, purchased Fred Meyer in 1998. In October, Kroger announced it wanted to purchase its next largest competitor.  What is the name of this supermarket chain?",
+          "question": "In which city is the original Oktoberfest held?",
           "answers": [
-            { "text": "Albertsons", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "Berlin" },
+            { "text": "Frankfurt" },
+            { "text": "Hamburg" },
+            { "text": "Munich", "correct": true }
           ]
         },
         {
-          "question": "In response to \"dangerous working conditions and a lack of professionalism\" this group of workers in Portland announced their intent to unionize.",
+          "question": "How long does Oktoberfest typically last?",
           "answers": [
-            { "text": "Exotic Dancers", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "1 week" },
+            { "text": "2 weeks", "correct": true },
+            { "text": "3 weeks" },
+            { "text": "4 weeks" }
           ]
         },
         {
-          "question": "A 10-week antitrust trial is about to begin for which tech giant?",
+          "question": "How many liters are in a traditional Oktoberfest beer stein?",
           "answers": [
-            { "text": "Google", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "0.5 liters" },
+            { "text": "1 liter", "correct": true },
+            { "text": "2 liters" },
+            { "text": "5 liters" }
           ]
         },
         {
-          "question": "Hostess was recently sold to what PBJ giant in a deal valued at $5.6 billion?",
+          "question": "What local brewery has a beer stien holding contest as part of their Octoberfest celebration?",
           "answers": [
-            { "text": "JM Smucker", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "Fort George" },
+            { "text": "Rogue" },
+            { "text": "Buoy", "correct": true },
+            { "text": "Astoria Brewing Company" }
           ]
         },
         {
-          "question": "What country experienced a 6.8 magnitude earthquake on Friday that killed at least 2500 people?",
+          "question": "This style of music, characterized by the repetitive, alternating bass notes and the strong, accented beats on the offbeat is often heard at Octoberfest celebrations.",
           "answers": [
-            { "text": "Morocco", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "Polka" },
+            { "text": "Waltz" },
+            { "text": "Oom-pah", "correct": true },
+            { "text": "Klezmer" }
           ]
         }
       ]
     },
     {
-      "title": "You Are Being Screened: TV and Computer Screens",
+      "title": "Oregon Drivers Test",
       "questions": [
         {
-          "question": "This device was used to display images on TV and computer screens up until the 2000s",
+          "question": "How often do you need to renew your Oregon driver's license?",
           "answers": [
-            { "text": "Cathode-ray tube", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "Every 4 years" },
+            { "text": "Every 6 years" },
+            { "text": "Every 8 years", "correct": true },
+            { "text": "Every 10 years" }
           ]
         },
         {
-          "question": "Cathode-ray tubes were phased out by new TV and screen display technologies such as...",
+          "question": "What is the penalty for texting while driving for a first-time offense that does not contribute to an accident in Oregon?",
           "answers": [
-            { "text": "LCD", "correct": true },
-            { "text": "CRT" },
-            { "text": "PDP", "correct": true },
-            { "text": "LSD" }
-          ],
-          "multipleChoice": true
+            { "text": "$150 fine" },
+            { "text": "$260 fine", "correct": true },
+            { "text": "$1,000 fine" },
+            { "text": "License suspension" }
+          ]
+        },
+        {
+          "question": "When approaching a public transit bus from behind, when must you yield for the bus to re-enter traffic?",
+          "answers": [
+            { "text": "If the bus has turned on its hazard lights." },
+            { "text": "Only when the bus doors are open." },
+            {
+              "text": "When the bus has its turn signal and flashing yield sign on.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "When passing another vehicle...",
+          "answers": [
+            { "text": "it is okay to exceed the speed limit." },
+            {
+              "text": "do not begin your pass before the start of a passing zone.",
+              "correct": true
+            },
+            {
+              "text": "on a two-lane road, you should pass only to the left of the vehicle."
+            }
+          ]
+        },
+        {
+          "question": "If a large vehicle swings left but has their right turn signal on and you are also turning right...",
+          "answers": [
+            { "text": "stay beside the large vehicle on the right." },
+            {
+              "text": "wait until the large vehicle turns before you turn right.",
+              "correct": true
+            },
+            { "text": "squeeze between the large vehicle and the curb." }
+          ]
+        },
+        {
+          "question": "When you parallel park, you need to be no more than ___ inches away from the curb.",
+          "answers": [
+            { "text": "12", "correct": true },
+            { "text": "10" },
+            { "text": "8" }
+          ]
         }
       ]
     },
     {
-      "title": "You Light Up My Life: Famous movie power outages",
+      "title": "Autumn Equinox",
       "questions": [
         {
-          "question": "In this 1989 film, Ray Stamtz slips on some slime and accidently breaks a pipe that falls onto a powerline causing a citywide blackout.",
+          "question": "What is the offical first day of Fall for 2023?"
+        },
+        {
+          "question": " During the Autumn Equinox, what happens to the length of daylight and darkness?",
           "answers": [
-            { "text": "Ghostbusters II", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            {
+              "text": "The length of daylight becomes longer than the length of darkness."
+            },
+            {
+              "text": "The length of darkness becomes longer than the length of daylight."
+            },
+            {
+              "text": "The length of daylight and darkness are approximately equal.",
+              "correct": true
+            },
+            { "text": "It varies depending on the location." }
           ]
         },
         {
-          "question": "In the 1989 comedy, National Lampoon's Christmas Vacation, Clark Griswold's enthusiasm for decorating his house with lights causes a power outage in what midwest city?",
+          "question": "What causes the leaves on deciduous trees to change color in the fall?",
           "answers": [
-            { "text": "Chicago", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "Increased rainfall" },
+            { "text": "Colder temperatures" },
+            { "text": "Reduced daylight hours", "correct": true },
+            { "text": "Strong winds" }
           ]
         },
         {
-          "question": "In this 2001 film, a group of con artists uses an electromagnetic device to cut off power to the city of Las Vegas.",
+          "question": "In the Northern Hemisphere, which direction do migratory birds usually travel during the fall migration?",
           "answers": [
-            { "text": "Oceans Eleven", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
-          ]
-        },
-        {
-          "question": "The Trigger Effect",
-          "answers": [
-            { "text": "??", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
-          ]
-        },
-        {
-          "question": "What country experienced a 6.8 magnitude earthquake on Friday that killed at least 2500 people?",
-          "answers": [
-            { "text": "Morocco", "correct": true },
-            { "text": "??" },
-            { "text": "??" },
-            { "text": "??" }
+            { "text": "North" },
+            { "text": "South", "correct": true },
+            { "text": "East" },
+            { "text": "West" }
           ]
         }
       ]
