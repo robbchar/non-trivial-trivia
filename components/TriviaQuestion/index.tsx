@@ -14,7 +14,6 @@ export default function TriviaQuestion({ triviaQuestion }) {
       context.revealAnswer = !context.revealAnswer;
     }
     setRevealAnswer(context.revealAnswer);
-    console.log(context.revealAnswer);
   };
 
   const navigated = () => {
