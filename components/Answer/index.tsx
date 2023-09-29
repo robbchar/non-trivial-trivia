@@ -5,7 +5,11 @@ export default function Answer({ answer, revealAnswer }) {
   const [className, setClassName] = useState(styles.answer);
   useEffect(() => {
     if (revealAnswer) {
-      setClassName(answer.correct ? styles.correctAnswer : styles.wrongAnswer);
+      setClassName(
+        answer.correct
+          ? styles.correctAnswer
+          : `${styles.correctAnswer} ${styles.wrongAnswer}`,
+      );
     } else {
       setClassName(styles.answer);
     }

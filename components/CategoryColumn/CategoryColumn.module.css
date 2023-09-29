@@ -26,8 +26,9 @@
 }
 
 .categoryContainer {
-  height: 20rem;
-  width: 39rem;
+  max-width: 75rem;
+  margin: 2rem;
+  padding: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;

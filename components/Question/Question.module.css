@@ -1,5 +1,6 @@
 .container {
   padding: 5rem;
+  flex: 1;
 }
 
 .question {
@@ -7,7 +8,6 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
   border-radius: 10px;
   transition:
     color 0.15s ease,
@@ -21,6 +21,7 @@
   border-radius: 3rem;
   box-shadow: 2.5rem 2.5rem 2rem 0px rgba(0, 0, 0, 0.75);
   user-select: none;
+  height: 100%;
 }
 
 .question h1 {

@@ -14,9 +14,8 @@
   flex-grow: 1;
 }
 .numberContainer {
-  align-self: flex-end;
+  align-self: stretch;
   display: flex;
-  margin-left: 1rem;
 }
 
 .number {
@@ -30,10 +29,13 @@
 }
 
 .buttonContainer {
+  align-items: center;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   width: 1.5rem;
   margin-left: 1.5rem;
+  font-size: 2rem;
 }
 
 .buttonContainer > div {
