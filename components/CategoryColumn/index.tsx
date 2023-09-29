@@ -27,15 +27,6 @@ export default function CategoryColumn({ category, categoryIndex }) {
       >
         <h1 className={styles.category}>{category.title}</h1>
       </div>
-      {category.questions.map((question, questionIndex) => (
-        <div
-          className={styles.question}
-          key={questionIndex}
-          onClick={() => questionClicked(router, categoryIndex, questionIndex)}
-        >
-          {question.question}
-        </div>
-      ))}
     </div>
   );
 }
