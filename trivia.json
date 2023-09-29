@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "title": "Oktoberfest",
+      "title": "Oktoberfest in September",
       "questions": [
         {
-          "question": "In which city is the original Oktoberfest held?",
+          "question": "1. In which city is the original Oktoberfest held?",
           "answers": [
             { "text": "Berlin" },
             { "text": "Frankfurt" },
@@ -13,7 +13,7 @@
           ]
         },
         {
-          "question": "How long does Oktoberfest typically last?",
+          "question": "2. How long does Oktoberfest typically last?",
           "answers": [
             { "text": "1 week" },
             { "text": "2 weeks", "correct": true },
@@ -22,7 +22,7 @@
           ]
         },
         {
-          "question": "How many liters are in a traditional Oktoberfest beer stein?",
+          "question": "3. How many liters are in a traditional Oktoberfest beer stein?",
           "answers": [
             { "text": "0.5 liters" },
             { "text": "1 liter", "correct": true },
@@ -31,7 +31,16 @@
           ]
         },
         {
-          "question": "What local brewery has a beer stien holding contest as part of their Octoberfest celebration?",
+          "question": "3 Bonus Question. How many liters are in a traditional Oktoberfest beer stein?",
+          "answers": [
+            { "text": "30 oz" },
+            { "text": "33 oz", "correct": true },
+            { "text": "40 oz" },
+            { "text": "45 oz" }
+          ]
+        },
+        {
+          "question": "4. What local brewery has a beer stien holding contest as part of their Octoberfest celebration?",
           "answers": [
             { "text": "Fort George" },
             { "text": "Rogue" },
@@ -40,7 +49,7 @@
           ]
         },
         {
-          "question": "This style of music, characterized by the repetitive, alternating bass notes and the strong, accented beats on the offbeat is often heard at Octoberfest celebrations.",
+          "question": "5. This style of music, characterized by the repetitive, alternating bass notes and the strong, accented beats on the offbeat is often heard at Octoberfest celebrations.",
           "answers": [
             { "text": "Polka" },
             { "text": "Waltz" },
@@ -51,10 +60,10 @@
       ]
     },
     {
-      "title": "Oregon Drivers Test",
+      "title": "Would You Pass the Oregon Drivers Test?",
       "questions": [
         {
-          "question": "How often do you need to renew your Oregon driver's license?",
+          "question": "1. How often do you need to renew your Oregon driver's license?",
           "answers": [
             { "text": "Every 4 years" },
             { "text": "Every 6 years" },
@@ -63,7 +72,16 @@
           ]
         },
         {
-          "question": "What is the penalty for texting while driving for a first-time offense that does not contribute to an accident in Oregon?",
+          "question": "Bonus Question 1. When will the Transportation Security Administration (TSA) stop accepting a standard Oregon drivers license or ID card to pass through airport security?",
+          "answers": [
+            { "text": "November 2023" },
+            { "text": "August 2024" },
+            { "text": "December 2024" },
+            { "text": "May 2025", "correct": true }
+          ]
+        },
+        {
+          "question": "2. What is the penalty for texting while driving for a first-time offense that does not contribute to an accident in Oregon?",
           "answers": [
             { "text": "$150 fine" },
             { "text": "$260 fine", "correct": true },
@@ -72,7 +90,7 @@
           ]
         },
         {
-          "question": "When approaching a public transit bus from behind, when must you yield for the bus to re-enter traffic?",
+          "question": "3. When approaching a public transit bus from behind, when must you yield for the bus to re-enter traffic?",
           "answers": [
             { "text": "If the bus has turned on its hazard lights." },
             { "text": "Only when the bus doors are open." },
@@ -83,7 +101,7 @@
           ]
         },
         {
-          "question": "When passing another vehicle...",
+          "question": "4. When passing another vehicle...",
           "answers": [
             { "text": "it is okay to exceed the speed limit." },
             {
@@ -96,22 +114,18 @@
           ]
         },
         {
-          "question": "If a large vehicle swings left but has their right turn signal on and you are also turning right...",
+          "question": "5. When you reach a roundabout you must...",
           "answers": [
-            { "text": "stay beside the large vehicle on the right." },
             {
-              "text": "wait until the large vehicle turns before you turn right.",
+              "text": "yield, wait for a gap and merge into traffic.",
               "correct": true
             },
-            { "text": "squeeze between the large vehicle and the curb." }
-          ]
-        },
-        {
-          "question": "When you parallel park, you need to be no more than ___ inches away from the curb.",
-          "answers": [
-            { "text": "12", "correct": true },
-            { "text": "10" },
-            { "text": "8" }
+            {
+              "text": "stop before entering then merge into traffic."
+            },
+            {
+              "text": "accelerate to merge into traffic."
+            }
           ]
         }
       ]
@@ -120,10 +134,10 @@
       "title": "Autumn Equinox",
       "questions": [
         {
-          "question": "What is the offical first day of Fall for 2023?"
+          "question": "1. What is the offical first day of Fall for 2023?"
         },
         {
-          "question": " During the Autumn Equinox, what happens to the length of daylight and darkness?",
+          "question": "2. During the Autumn Equinox, what happens to the length of daylight and darkness?",
           "answers": [
             {
               "text": "The length of daylight becomes longer than the length of darkness."
@@ -139,7 +153,7 @@
           ]
         },
         {
-          "question": "What causes the leaves on deciduous trees to change color in the fall?",
+          "question": "3. What causes the leaves on deciduous trees to change color in the fall?",
           "answers": [
             { "text": "Increased rainfall" },
             { "text": "Colder temperatures" },
@@ -148,13 +162,17 @@
           ]
         },
         {
-          "question": "In the Northern Hemisphere, which direction do migratory birds usually travel during the fall migration?",
+          "question": "4. In the Northern Hemisphere, which direction do migratory birds usually travel during the fall migration?",
           "answers": [
             { "text": "North" },
             { "text": "South", "correct": true },
             { "text": "East" },
             { "text": "West" }
           ]
+        },
+        {
+          "question": "5. The Equinox happens in Spring and Autumn. Solstices also occur twice a year, but in Summer and Winter and mark the longest and shortest days of the year.",
+          "answers": [{ "text": "True", "correct": true }, { "text": "False" }]
         }
       ]
     }
