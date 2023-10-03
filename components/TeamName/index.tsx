@@ -3,14 +3,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faSquareCaretUp,
   faSquareCaretDown,
+  faTimes,
 } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 
-export default function TeamName({ name, points, index, updateTeam }) {
+export default function TeamName({
+  name,
+  points,
+  index,
+  updateTeam,
+  removeTeam,
+}) {
   const [isEditing, setIsEditing] = useState(!name);
 
   const handleKeyDown = (event) => {
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' && event.target.value !== '') {
       setIsEditing(false);
       updateTeam(index, event.target.value, 0);
     }
@@ -51,7 +58,7 @@ export default function TeamName({ name, points, index, updateTeam }) {
         <div className={styles.number}>
           <span>{points}</span>
         </div>
-        <div className={styles.buttonContainer}>
+        <div className={styles.pointsButtonContainer}>
           <div
             className={styles.increment}
             onClick={() => handlePointsClick('up')}
@@ -64,6 +71,10 @@ export default function TeamName({ name, points, index, updateTeam }) {
               onClick={() => handlePointsClick('down')}
             />
           </div>
+        </div>
+
+        <div className={styles.removeTeam}>
+          <FontAwesomeIcon icon={faTimes} onClick={() => removeTeam(name)} />
         </div>
       </div>
     </li>

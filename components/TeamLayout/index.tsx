@@ -35,7 +35,15 @@ export default function TeamLayout() {
     setTeamsData(JSON.parse(JSON.stringify(teamsData)));
   };
 
+  const removeTeam = (name) => {
+    teamsData.teams = teamsData.teams.filter((team) => team.name !== name);
+    saveData();
+    setTeamsData(JSON.parse(JSON.stringify(teamsData)));
+  };
+
   const updateTeam = (index, name, points) => {
+    if (name === '') return;
+
     if (teamsData.teams.length === 0) {
       teamsData.teams.push({ name, points });
     } else {
@@ -58,6 +66,7 @@ export default function TeamLayout() {
         points="0"
         index="0"
         updateTeam={updateTeam}
+        removeTeam={removeTeam}
       />
     ) : (
       teamsData.teams.map((team, index) => (
@@ -66,6 +75,7 @@ export default function TeamLayout() {
           points={team.points}
           index={index}
           updateTeam={updateTeam}
+          removeTeam={removeTeam}
           key={index}
         />
       ))

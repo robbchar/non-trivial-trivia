@@ -28,6 +28,7 @@
   width: 100%;
   justify-self: flex-start;
   max-height: 85rem;
+  height: 85rem;
 }
 
 .namesContainer::-webkit-scrollbar-thumb {

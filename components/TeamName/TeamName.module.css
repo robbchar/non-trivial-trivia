@@ -30,7 +30,7 @@
   font-size: 3rem;
 }
 
-.buttonContainer {
+.pointsButtonContainer {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@
   font-size: 2rem;
 }
 
-.buttonContainer > div {
+.pointsButtonContainer > div {
   cursor: pointer;
   width: 1.5rem;
 }
@@ -48,4 +48,11 @@
 .teamName {
   align-self: flex-start;
   flex-grow: 1;
+}
+
+.removeTeam {
+  width: 2rem;
+  display: flex;
+  margin-left: 0.5rem;
+  cursor: pointer;
 }
