@@ -33,7 +33,7 @@ export default function TeamName({ name, points, index, updateTeam }) {
   };
 
   return (
-    <div className={styles.content}>
+    <li className={styles.content}>
       {isEditing ? (
         <input
           className={styles.teamName}
@@ -66,6 +66,6 @@ export default function TeamName({ name, points, index, updateTeam }) {
           </div>
         </div>
       </div>
-    </div>
+    </li>
   );
 }

@@ -81,7 +81,7 @@ export default function TeamLayout() {
       </NavHeader>
       <div className={styles.content}>
         <div className={styles.teamsContainer}>
-          <div className={styles.namesContainer}>{renderTeams()}</div>
+          <ul className={styles.namesContainer}>{renderTeams()}</ul>
           <div className={styles.buttonsContainer}>
             <div className={styles.button} onClick={sortTeams}>
               Sort

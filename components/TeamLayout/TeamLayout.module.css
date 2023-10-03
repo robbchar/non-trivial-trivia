@@ -1,17 +1,11 @@
 .content {
   display: flex;
-  flex-direction: column;
-  flex: 1;
-  overflow-y: scroll;
   max-height: 95rem;
 }
 
 .teamsContainer {
-  flex: 1;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
   width: 70rem;
   padding: 4rem 2rem;
   text-align: left;
@@ -26,11 +20,25 @@
   border-radius: 3rem;
   box-shadow: 2.5rem 2.5rem 2rem 0px rgba(0, 0, 0, 0.75);
   user-select: none;
+  max-height: 100%;
 }
 
 .namesContainer {
+  overflow-y: scroll;
   width: 100%;
   justify-self: flex-start;
+  max-height: 85rem;
+}
+
+.namesContainer::-webkit-scrollbar-thumb {
+  background-color: #9d9d9d;
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.namesContainer::-webkit-scrollbar {
+  width: 16px;
 }
 
 .buttonsContainer {
