@@ -1,178 +1,149 @@
 {
   "categories": [
     {
-      "title": "Oktoberfest in September",
+      "title": "Stormy Weather",
       "questions": [
         {
-          "question": "1. In which city is the original Oktoberfest held?",
+          "question": "1. What is Astoria's average annual rainfall?",
           "answers": [
-            { "text": "Berlin" },
-            { "text": "Frankfurt" },
-            { "text": "Hamburg" },
-            { "text": "Munich", "correct": true }
-          ]
-        },
-        {
-          "question": "2. How long does Oktoberfest typically last?",
-          "answers": [
-            { "text": "1 week" },
-            { "text": "2 weeks", "correct": true },
-            { "text": "3 weeks" },
-            { "text": "4 weeks" }
-          ]
-        },
-        {
-          "question": "3. How many liters are in a traditional Oktoberfest beer stein?",
-          "answers": [
-            { "text": "0.5 liters" },
-            { "text": "1 liter", "correct": true },
-            { "text": "2 liters" },
-            { "text": "5 liters" }
-          ]
-        },
-        {
-          "question": "3 Bonus Question. How many liters are in a traditional Oktoberfest beer stein?",
-          "answers": [
-            { "text": "30 oz" },
-            { "text": "33 oz", "correct": true },
-            { "text": "40 oz" },
-            { "text": "45 oz" }
-          ]
-        },
-        {
-          "question": "4. What local brewery has a beer stien holding contest as part of their Octoberfest celebration?",
-          "answers": [
-            { "text": "Fort George" },
-            { "text": "Rogue" },
-            { "text": "Buoy", "correct": true },
-            { "text": "Astoria Brewing Company" }
-          ]
-        },
-        {
-          "question": "5. This style of music, characterized by the repetitive, alternating bass notes and the strong, accented beats on the offbeat is often heard at Octoberfest celebrations.",
-          "answers": [
-            { "text": "Polka" },
-            { "text": "Waltz" },
-            { "text": "Oom-pah", "correct": true },
-            { "text": "Klezmer" }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Would You Pass the Oregon Drivers Test?",
-      "questions": [
-        {
-          "question": "1. How often do you need to renew your Oregon driver's license?",
-          "answers": [
-            { "text": "Every 4 years" },
-            { "text": "Every 6 years" },
-            { "text": "Every 8 years", "correct": true },
-            { "text": "Every 10 years" }
-          ]
-        },
-        {
-          "question": "Bonus Question 1. When will the Transportation Security Administration (TSA) stop accepting a standard Oregon drivers license or ID card to pass through airport security?",
-          "answers": [
-            { "text": "November 2023" },
-            { "text": "August 2024" },
-            { "text": "December 2024" },
-            { "text": "May 2025", "correct": true }
-          ]
-        },
-        {
-          "question": "2. What is the penalty for texting while driving for a first-time offense that does not contribute to an accident in Oregon?",
-          "answers": [
-            { "text": "$150 fine" },
-            { "text": "$260 fine", "correct": true },
-            { "text": "$1,000 fine" },
-            { "text": "License suspension" }
-          ]
-        },
-        {
-          "question": "3. When approaching a public transit bus from behind, when must you yield for the bus to re-enter traffic?",
-          "answers": [
-            { "text": "If the bus has turned on its hazard lights." },
-            { "text": "Only when the bus doors are open." },
             {
-              "text": "When the bus has its turn signal and flashing yield sign on.",
+              "text": "A. 25 inches"
+            },
+            {
+              "text": "B. 40 inches"
+            },
+            {
+              "text": "C. 70 inches",
               "correct": true
+            },
+            { "text": "D. 90 inches" }
+          ]
+        },
+        {
+          "question": "2. During which season is Astoria, Oregon, most likely to experience foggy weather?",
+          "answers": [
+            {
+              "text": "A. Spring"
+            },
+            {
+              "text": "B. Summer",
+              "correct": true
+            },
+            {
+              "text": "C. Fall"
+            },
+            { "text": "D. Winter" }
+          ]
+        },
+        {
+          "question": "3. Which is the wettest month in Astoria?",
+          "answers": [
+            { "text": "A. October" },
+            {
+              "text": "B. November",
+              "correct": true
+            },
+            { "text": "C. December" },
+            {
+              "text": "D. January"
             }
           ]
         },
         {
-          "question": "4. When passing another vehicle...",
-          "answers": [
-            { "text": "it is okay to exceed the speed limit." },
-            {
-              "text": "do not begin your pass before the start of a passing zone.",
-              "correct": true
-            },
-            {
-              "text": "on a two-lane road, you should pass only to the left of the vehicle."
-            }
-          ]
+          "question": "3 (Bonus)  True or False? Nearly 90 percent of the annual rainfall occurs between early October and mid-May."
         },
         {
-          "question": "5. When you reach a roundabout you must...",
+          "question": "4. What is the common term for the strong winds that occasionally hit the Oregon coast, including Astoria?",
           "answers": [
             {
-              "text": "yield, wait for a gap and merge into traffic.",
+              "text": "A. Gale Force Winds",
               "correct": true
             },
             {
-              "text": "stop before entering then merge into traffic."
+              "text": "B. Big Blows"
             },
             {
-              "text": "accelerate to merge into traffic."
+              "text": "C. Blowdowns"
+            },
+            {
+              "text": "D. Downbursts"
             }
           ]
         }
       ]
     },
     {
-      "title": "Autumn Equinox",
+      "title": "More or Less",
       "questions": [
         {
-          "question": "1. What is the offical first day of Fall for 2023?"
-        },
-        {
-          "question": "2. During the Autumn Equinox, what happens to the length of daylight and darkness?",
+          "question": "1. Emily biked 34 miles in 4 hours. What was her average speed in miles per hour?",
           "answers": [
-            {
-              "text": "The length of daylight becomes longer than the length of darkness."
-            },
-            {
-              "text": "The length of darkness becomes longer than the length of daylight."
-            },
-            {
-              "text": "The length of daylight and darkness are approximately equal.",
-              "correct": true
-            },
-            { "text": "It varies depending on the location." }
+            { "text": "A. 7.5" },
+            { "text": "B. 8" },
+            { "text": "C. 8.5", "correct": true },
+            { "text": "D. 9" },
+            { "text": "E. 9.5" }
           ]
         },
         {
-          "question": "3. What causes the leaves on deciduous trees to change color in the fall?",
+          "question": "2. What letter in the English language does every odd number spelling contain?",
+          "answers": []
+        },
+        {
+          "question": "3. What artist was the inspiration behind the invention of Paint by Number kits in 1955?",
           "answers": [
-            { "text": "Increased rainfall" },
-            { "text": "Colder temperatures" },
-            { "text": "Reduced daylight hours", "correct": true },
-            { "text": "Strong winds" }
+            { "text": "A. Leonardo da Vinci", "correct": true },
+            { "text": "B. Picasso" },
+            { "text": "C. Vincent Van Gogh" }
           ]
         },
         {
-          "question": "4. In the Northern Hemisphere, which direction do migratory birds usually travel during the fall migration?",
+          "question": "4. Lucia sent 1,560 text messages in the past 30 days. On average, how many text messages did she send each day?",
           "answers": [
-            { "text": "North" },
-            { "text": "South", "correct": true },
-            { "text": "East" },
-            { "text": "West" }
+            { "text": "A. 48" },
+            { "text": "B. 49" },
+            { "text": "C. 50" },
+            { "text": "C. 51" },
+            { "text": "C. 52", "correct": true }
           ]
         },
         {
-          "question": "5. The Equinox happens in Spring and Autumn. Solstices also occur twice a year, but in Summer and Winter and mark the longest and shortest days of the year.",
-          "answers": [{ "text": "True", "correct": true }, { "text": "False" }]
+          "question": "5. What is the highest number used in a standard Bingo game?",
+          "answers": [
+            { "text": "A. 25" },
+            { "text": "B. 60" },
+            { "text": "C. 75", "correct": true },
+            { "text": "D. 90" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thirteen",
+      "questions": [
+        {
+          "question": "1. There are approximately 12-13 cycles of the __________ each year.",
+          "answers": []
+        },
+        {
+          "question": "1 (bonus). What is the name given to the occurrence of the 13th cycle?",
+          "answers": []
+        },
+        {
+          "question": "2. There are 13 cards in each __________ of a standard deck of 52 playing cards.",
+          "answers": []
+        },
+        {
+          "question": "3. The fear of the number 13 is called:",
+          "answers": []
+        },
+        {
+          "question": "4. There were 13 original __________ in the United States during the 17th and 18th centuries.",
+          "answers": []
+        },
+        {
+          "question": "5. Many species of the __________ insect in the United States have a life cycle of 13 or 17 years.",
+          "answers": []
         }
       ]
     }
